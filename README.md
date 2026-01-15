@@ -20,7 +20,7 @@ I'm a self-taught developer on a mission to become a full-stack web developer in
 ## 📖 My Learning Journey
 
 Want to see my day-to-day progress and learning notes?  
-👉 Check out my [Learning Log](https://github.com/yourusername/learning-log)
+👉 Check out my [Learning Log](https://github.com/Nurgustiana/learning-log)
 
 See how I'm learning everything from scratch with daily logs, challenges faced, and lessons learned!
 ```
