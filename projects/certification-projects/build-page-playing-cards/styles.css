@@ -3,7 +3,7 @@ body {
 }
 
 #playing-cards {
-  background-color: green;
+  background-color: #3f693f;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -23,7 +23,7 @@ body {
   height: 350px;
   border: 1px solid black;
   border-radius: 10px;
-  box-shadow: 0 2px 5px blanchedalmond;
+  box-shadow: 0 2px 5px 5px yellow;
   padding: 20px;
 }
 
