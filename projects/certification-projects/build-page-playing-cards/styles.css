@@ -1,0 +1,61 @@
+body {
+  background-color: azure;
+}
+
+#playing-cards {
+  background-color: green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  height: 600px;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px auto;
+ }
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin: 10px auto;
+  width: 250px;
+  height: 350px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px blanchedalmond;
+  padding: 20px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start; 
+}
+
+.middle {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.red {
+  color: red;
+}
+
+.left, .right {
+  font-size: 36px;
+}
+
+.middle {
+  font-size: 52px;
+}
+
+.flipped {
+  display: inline-block;
+  transform: scale(-1, -1);
+}
