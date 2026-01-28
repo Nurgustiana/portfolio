@@ -46,6 +46,8 @@ h1 {
 
 #submit {
   background-color: orange;
+  border: none;
+  border-radius: 10px;
 }
 
 #form input {
