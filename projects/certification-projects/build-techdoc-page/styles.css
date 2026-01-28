@@ -1,0 +1,51 @@
+#navbar {
+  position: fixed;
+  max-width: 30%;
+  height: 100%;
+  border-right: 1px solid darkslategray;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+
+main {
+  max-width: 70%;
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+.nav-link {
+  Display: flex;
+  margin-top: 20px;
+  text-decoration: none;
+  color: darkslategray;
+}
+
+li, code {
+  background-color: lightgrey;
+  margin-left: 20px;
+}
+
+header {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+@media (min-width: 1400px) {
+  #navbar {
+    background-color: azure;
+  }
+}
+
+hr {
+  position: relative;
+  left: 0;
+  width: 100%;
+  margin-bottom: 10px;
+}
